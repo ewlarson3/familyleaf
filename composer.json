@@ -1,0 +1,26 @@
+{
+    "name": "familysearch/fs-php-lite",
+    "authors": [
+        {
+            "name": "Justin",
+            "email": "justincyork@gmail.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require-dev": {
+        "gedcomx/gedcomx-php": "^3.1.2",
+        "php-vcr/php-vcr": "^1.2",
+        "phpunit/phpunit": "^4.8",
+        "php-vcr/phpunit-testlistener-vcr": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FamilySearch\\Tests\\": "test/"
+        }
+    }
+}
